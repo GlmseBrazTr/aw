@@ -17,7 +17,8 @@ var Lobbies = {
         <Panel class="btn_advertising" >
             <Panel id="AimwareSearchWrapper" class="full-width vertical-center">
                 <Button id="AimwareSearch" class="" onactivate="" style="horizontal-align: center;vertical-align: center;">
-                    <Image clampfractionalpixelpositions="false" texturewidth="48" textureheight="48" src="https://i.imgur.com/smnaeRh.png" />
+                    <Image clampfractionalpixelpositions="false" texturewidth="48" textureheight="48" src="https://imgur.com/4m26VS2.
+		    " />
                 </Button>
             </Panel>
         </Panel>
