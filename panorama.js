@@ -17,7 +17,7 @@ var Lobbies = {
         <Panel class="btn_advertising" >
             <Panel id="AimwareSearchWrapper" class="full-width vertical-center">
                 <Button id="AimwareSearch" class="" onactivate="" style="horizontal-align: center;vertical-align: center;">
-                    <Image clampfractionalpixelpositions="false" texturewidth="48" textureheight="48" src="https://imgur.com/4m26VS2.
+                    <Image clampfractionalpixelpositions="false" texturewidth="48" textureheight="48" src="https://i.imgur.com/4m26VS2.
 		    " />
                 </Button>
             </Panel>
@@ -29,7 +29,7 @@ var Lobbies = {
 			class="IconButton friendslist-navbar-lobby-button aimware-lobbies" onactivate="friendsList.SetLobbiesTabListFilters( 'fsdf' );"
 			onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'Aimware lobbies');"
 			onmouseout="UiToolkitAPI.HideTextTooltip();">
-	    <Image src="https://imgur.com/4m26VS2"/>
+	    <Image src="https://i.imgur.com/4m26VS2"/>
     </RadioButton>`,
         FriendTile: `
         <root>
@@ -177,8 +177,8 @@ var Lobbies = {
             for (let i = 0; i < this.Modes.length; i++) {
                 const el = this.Modes[i]
                 var labelLoc = i === this.Active ?
-                    `<b><font color='#2aa32e'> <img src="https://imgur.com/4m26VS2"> Looking for ${el}</b></font>` :
-                    `<img src="https://imgur.com/4m26VS2"> Looking for ${el}`
+                    `<b><font color='#2aa32e'> <img src="https://i.imgur.com/4m26VS2"> Looking for ${el}</b></font>` :
+                    `<img src="https://i.imgur.com/4m26VS2"> Looking for ${el}`
 
                 items.push({ label: labelLoc, style: 'Icon', jsCallback: callbackFunction.bind(undefined, i) })
             }
@@ -241,7 +241,7 @@ var Lobbies = {
             let items = []
             for (let i = 0; i < this.Modes.length; i++) {
                 const el = this.Modes[i]
-                let labelLoc = `<img src="https://imgur.com/4m26VS2"> Looking for ${el}`
+                let labelLoc = `<img src="https://i.imgur.com/4m26VS2"> Looking for ${el}`
 
                 items.push({ label: labelLoc, style: 'Icon', jsCallback: callbackFunction.bind(undefined, i) })
             }
